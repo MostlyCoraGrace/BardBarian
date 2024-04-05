@@ -1,5 +1,571 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9bd3cab2-1200-43b6-a9a9-f34e6993f55d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "BardBarian_Symbols:Header_Pin"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BardBarian_Footprints:Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Header_Pin_1_1"
+				(pin bidirectional line
+					(at 0 0 90)
+					(length 2.54)
+					(name "Pin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BardBarian_Symbols:Kailh_GM_4.0_Red_CMI126601D01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BardBarian_Footprints:Kailh GM 4.0 Red CMI126601D01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Kailh_GM_4.0_Red_CMI126601D01_1_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -2.54 -3.81 90)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output output_low
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive non_logic
+					(at 2.54 -3.81 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 142.24 92.71) (xy 142.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10565b03-4306-4ecb-b7f6-d1e72e0b096c")
+	)
+	(wire
+		(pts
+			(xy 143.51 96.52) (xy 143.51 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1528f744-d959-40ce-a074-aca71498c71a")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f7ce71-6102-4975-b706-b71e98d4c15c")
+	)
+	(wire
+		(pts
+			(xy 137.16 92.71) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a33145d-3082-43c7-9190-db2558e47e95")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 133.35 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5829027a-45a7-4ef9-89c2-63e1f7ea3d58")
+	)
+	(wire
+		(pts
+			(xy 140.97 95.25) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5f5b07-ff7c-45c8-8216-5ed1284185dd")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7166b343-f54c-4efe-921f-c9c057f23672")
+	)
+	(wire
+		(pts
+			(xy 143.51 101.6) (xy 146.05 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9452d2ec-a5e2-4d9d-99cd-757bf5d7a245")
+	)
+	(wire
+		(pts
+			(xy 142.24 96.52) (xy 143.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14944a0-98dc-4bce-b7ae-c3892c379583")
+	)
+	(wire
+		(pts
+			(xy 139.7 92.71) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc43ec78-8e38-46de-9805-b8f936afe344")
+	)
+	(symbol
+		(lib_id "BardBarian_Symbols:Header_Pin")
+		(at 146.05 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15f3c22a-bc3f-42f7-98e9-51b3fca5b2fa")
+		(property "Reference" "NC1"
+			(at 147.32 98.4249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 147.32 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BardBarian_Footprints:Header"
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a4f010-caac-4173-9d3d-ccdd56d2db48")
+		)
+		(instances
+			(project "MouseSwitchTest"
+				(path "/9bd3cab2-1200-43b6-a9a9-f34e6993f55d"
+					(reference "NC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BardBarian_Symbols:Header_Pin")
+		(at 139.7 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8465288a-958e-4fad-bb10-8d9810b3c3b3")
+		(property "Reference" "GPIO1"
+			(at 140.97 98.4249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BardBarian_Footprints:Header"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de0a9897-bc50-4092-b272-19e937774a02")
+		)
+		(instances
+			(project "MouseSwitchTest"
+				(path "/9bd3cab2-1200-43b6-a9a9-f34e6993f55d"
+					(reference "GPIO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BardBarian_Symbols:Header_Pin")
+		(at 133.35 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "975490ac-2f8d-4a36-90e2-7ad6a340ac14")
+		(property "Reference" "VDD1"
+			(at 134.62 98.4249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BardBarian_Footprints:Header"
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c8760e1-e3ca-4315-a2b3-d5f78e72fc21")
+		)
+		(instances
+			(project "MouseSwitchTest"
+				(path "/9bd3cab2-1200-43b6-a9a9-f34e6993f55d"
+					(reference "VDD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BardBarian_Symbols:Kailh_GM_4.0_Red_CMI126601D01")
+		(at 139.7 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb316437-1011-45e9-aa5e-7c06f0ee7fc9")
+		(property "Reference" "S1"
+			(at 143.51 88.2649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 143.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BardBarian_Footprints:Kailh GM 4.0 Red CMI126601D01"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "45a3528f-542e-43b0-b2fa-3e78afb26d65")
+		)
+		(pin "2"
+			(uuid "303a96e6-f2c3-4d1e-97f9-01edd928da04")
+		)
+		(pin "1"
+			(uuid "c6c127f2-2c4b-4793-863e-35c6d1868079")
+		)
+		(instances
+			(project "MouseSwitchTest"
+				(path "/9bd3cab2-1200-43b6-a9a9-f34e6993f55d"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
