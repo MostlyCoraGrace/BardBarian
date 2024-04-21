@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "BardBarian_Symbols")(type "KiCad")(uri "${KIPRJMOD} /../BardBarian_Symbols.kicad_sym")(options "")(descr ""))
-)
